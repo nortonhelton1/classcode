@@ -1,0 +1,16 @@
+{   
+    "totalCustomers": 300, 
+    "lastCustomerAdded": "02/11/2021",
+    "customers": [
+        {
+            "firstName": "John", 
+            "lastName": "Doe"
+        }, 
+        {
+            "firstName": "Mary", 
+            "lastName": "Doe"
+        }
+    ]
+}
+
+

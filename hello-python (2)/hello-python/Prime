@@ -1,0 +1,12 @@
+user inputs number
+number = int(input("Please enter a number: "))
+# prime numbers must be greater than 1
+if number > 1:
+    for i in range(2, number): #2 start, end(being the number that was input)
+        if(number % i) == 0: #creating the condition if number is divisble by 2
+            print("is not a prime number") # if it was true then this
+            break #end code
+    else: 
+        print("is a prime number") #otherwise it is a prime number. 
+else:
+    print("is not a prime number") # prime numbers must be greater than 1. 

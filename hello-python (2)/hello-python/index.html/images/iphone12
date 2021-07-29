@@ -1,0 +1,48 @@
+<!-- 
+
+    OPTION 1: Create a separate website for mobile and a separate website for desktop 
+    Desktop: http://www.homedepot.com
+    Mobile: http://www.mobile.homedepot.com 
+    Multiple code based
+
+    OPTION 2 (Preferred): Create a single website, which can be viewed on desktop and mobile. (Responsive Design)
+    One code base
+
+    Desktop/Mobile: http://www.homedepot.com 
+-->
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div id="container">
+        <ul id="menu">
+            <li>Home</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+        </ul>
+
+        <div id="deal">
+            <h1>iPhone 12</h1>
+            <h6>Blast, Past, Fast</h6>
+            <p>Buy directly from Apple for $29.99 a month</p>
+            <div class = "learn-more-buy">
+                <div>Learn More</div>
+                <div>Buy</div>
+            </div>
+           
+            <img id="latest-phone-desktop" src = "images/iphone12-deal-desktop.png" />
+
+            <img id="latest-phone-mobile" src = "images/iphone12-deal-mobile.png" />
+
+        </div>
+    </div>
+
+</body>
+
+</html>

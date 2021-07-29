@@ -1,0 +1,28 @@
+
+Car 
+- model 
+- make 
+- vin 
+- color 
+
+Person 
+- height 
+- weight 
+- age 
+- hair_color
+
+House 
+no_of_bed_rooms
+square_feet
+no_of_stories
+address 
+city 
+
+Table 
+- finish 
+- length 
+- width 
+- shape 
+- cost 
+- style 
+- material 

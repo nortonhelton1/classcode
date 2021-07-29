@@ -1,0 +1,72 @@
+
+/* Common Styles */
+#menu {
+    background-color: black;
+    color: white;
+    display: flex; 
+    flex-direction: row; /* default is row */
+    justify-content: space-around;
+}
+
+#covid-help {
+    background-color: blue;
+    color: white; 
+}
+
+#current-offer {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#learn-more {
+    display: flex;
+}
+
+#promo-image {
+    background-image: url("../images/promo-desktop.png");
+}
+
+@media (min-width: 1281px) {
+    
+    body {
+        background-color: red;
+    }
+
+    #menu {
+        background-color: orange; 
+    }
+ 
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #covid-help {
+        display: none; 
+    }
+
+    body {
+        background-color: green;
+    }    
+
+}
+
+/* 
+FlexBox Row 
+ - justifyContent = Horizontally 
+ - align items = vertically 
+
+ FlexBox Column 
+ - justifyContent = vertically 
+ - align items = horizontally  
+*/
+
