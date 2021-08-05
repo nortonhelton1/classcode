@@ -1,0 +1,14 @@
+<body>
+    <div id="container">
+        <input type="textbox" id="cityNameText" placeholder="Enter the city name"></input>
+        <button id="submitButton">Submit</button>
+        <div id="displayWeatherDiv">
+
+        </div>
+    </div>
+
+
+    <script src="WApp.js"></script>
+</body>
+
+</html>
